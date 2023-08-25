@@ -1,0 +1,24 @@
+.breed-card {
+	width: 300px;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	padding: 16px;
+	margin: 16px;
+	display: flex;
+	align-items: center;
+	background-color: white;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.breed-image {
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+	margin-right: 16px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.breed-details {
+	flex: 1;
+}

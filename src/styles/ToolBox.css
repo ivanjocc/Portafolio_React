@@ -1,0 +1,61 @@
+.toolbox-container {
+	max-width: 400px;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	background-color: #fff;
+}
+
+h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.tools-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+
+.tool {
+	display: flex;
+	align-items: center;
+	padding: 8px 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.3s, color 0.3s;
+}
+
+.tool.active {
+	background-color: #007bff;
+	color: #fff;
+	border-color: #007bff;
+}
+
+.tool:hover {
+	background-color: #f8f8f8;
+}
+
+.tool-progress {
+	margin-top: 20px;
+	padding: 10px;
+	background-color: #f8f8f8;
+	border-radius: 4px;
+}
+
+.progress-bar {
+	height: 20px;
+	background-color: #007bff;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 4px;
+	transition: width 0.5s;
+	font-weight: bold;
+}
